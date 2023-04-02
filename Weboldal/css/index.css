@@ -1,0 +1,41 @@
+body {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0.5em;
+  }
+
+  p {
+    margin: 1em;
+  }
+}

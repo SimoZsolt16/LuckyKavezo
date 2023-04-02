@@ -1,0 +1,68 @@
+body {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.coffee {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 20%;
+}
+  
+.coffee:hover {
+    transform: scale(1.1);
+}
+  
+.coffee img {
+    max-width: 100%;
+}
+  
+.coffee h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+  
+.coffee p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: #ffffff;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+
+@media screen and (max-width: 600px) {
+    header {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    nav {
+      margin-top: 1em;
+      text-align: center;
+    }
+  
+    ul {
+      padding: 0;
+    }
+  
+    li {
+      display: inline-block;
+      margin: 0.5em;
+    }
+  
+    p {
+      margin: 1em;
+    }
+  }
